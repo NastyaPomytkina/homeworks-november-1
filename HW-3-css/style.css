@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Lexend:wght@300&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Lato:wght@300&family=Lexend:wght@300&family=Roboto:ital,wght@1,300&display=swap');
+
 body {
 background-color: #e5e5e5;
 }
@@ -19,7 +22,7 @@ width: 900px;
 height: 70px;
 left: 80px;
 top: 13px;
-font-family: Inter;
+font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 15px;
@@ -36,7 +39,7 @@ width: 86px;
 height: 30px;
 left: 1115px;
 top: 247px;
-font-family: Inter;
+font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 12px;
@@ -87,7 +90,7 @@ margin-right: 10px;
 }
 .box2 {
 width: 560px;
-height: 72px;
+height: 41px;
 background: #FFFFFF;
 box-shadow: 0px 12px 24px -6px rgba(96, 96, 96, 0.15), 0px 0px 1px rgba(96, 96, 96, 0.1);
 border-radius: 16px;
@@ -107,7 +110,7 @@ color: #EA4C89;
 margin-left: 10px;
 margin-right: 10px;
 max-width: 347px;
-font-family: Inter;
+font-family: 'Inter', sans-serif;
 font-size: 14px;
 }
 .button2 {
@@ -171,7 +174,7 @@ border-radius: 8px;
 display: flex;
 flex-direction: row;
 align-items: flex-start;
-font-family: Inter;
+font-family:'Inter', sans-serif;
 padding-top: 4px;
 border: none;
 }
@@ -252,6 +255,7 @@ flex: none;
 order: 0;
 flex-grow: 1;
 margin: 0px 8px;
+border: 0;
 }
 .banner5__ {
 display: flex;
@@ -270,7 +274,8 @@ border-radius: 6px;
 flex: none;
 order: 1;
 flex-grow: 1;
- margin: 0px 8px;
+margin: 0px 8px;
+border: 0;
 }
 .box6 {
     display: flex;
@@ -299,7 +304,7 @@ flex-grow: 1;
     height: 48px;
     left: 170px;
     top: 1241px;
-    font-family: Gilroy;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 28px;
@@ -317,7 +322,7 @@ flex-grow: 1;
     height: 63px;
     left: 47px;
     top: 1314px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 23px;
