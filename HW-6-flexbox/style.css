@@ -150,6 +150,12 @@ left: 240px;
 top: 702px;
 background: #9C69E2;
 border-radius: 50px;
+border:none;
+font-size: 16px;
+color:white;
+font-family: 'Lexend', sans-serif;
+font-style: normal;
+font-weight: 800;
 }
 .womens {
 position: absolute;
@@ -344,7 +350,7 @@ color: #4B5D68;
     color: #212353; 
     position: absolute;
     top: 2173px;
-    right: 1650px;
+    right: 870px;
 }
 .learn2 {
 position: absolute;
@@ -373,7 +379,7 @@ color: #212353;
     color: #212353; 
     position: absolute;
     top: 2173px;
-    right: 1050px;
+    right: 270px;
 }
 .text8 {
 position: absolute;
@@ -430,7 +436,7 @@ color: #212353;
     color: #212353; 
     position: absolute;
     top: 2532px;
-    right: 1645px;
+    right: 870px;
 }
 .printer {
 position: absolute;
@@ -456,10 +462,10 @@ color: #212353;
 }
 .text11 {
 position: absolute;
-width: 300px;
+width: 235px;
 height: 160px;
-left: 1087.28px;
-top: 2400px;
+left: 1067.28px;
+top: 2381px;
 font-family: 'Lexend', sans-serif;
 font-style: normal;
 font-weight: normal;
@@ -501,7 +507,7 @@ line-height: 160%;
 color: #212353; 
 position: absolute;
 top: 2550px;
-right: 1050px;
+right: 270px;
 }
 .purpleback {
 position: absolute;
@@ -636,7 +642,7 @@ background: #FFFFFF;
     color: rgba(255, 255, 255, 0.877); 
     position: absolute;
     top: 3420px;
-    right: 1060px;
+    right: 350px;
 }
 .whitestr2 {
 width: 26px;
@@ -649,7 +655,7 @@ line-height: 160%;
 color: white; 
 position: absolute;
 top: 3420px;
-right: 1000px;
+right: 280px;
 }
 .line {
 position: absolute;
@@ -763,28 +769,28 @@ color: #212353;
 }
 .adress {
 position: absolute;
-width: 335px;
+width: 200px;
 height: 65px;
 left: 356px;
 top: 4101px;
 font-family:'Lexend', sans-serif;
 font-style:normal;
 font-weight: 500;
-font-size: 20px;
+font-size: 19px;
 line-height: 180%;
 letter-spacing: 0.01em;
 color: #212353;
 }
 .email {
 position: absolute;
-width: 335px;
+width: 170px;
 height: 60px;
 left: 356px;
-top: 4223px;
+top: 4254px;
 font-family:'Lexend', sans-serif;
 font-style: normal;
 font-weight: normal;
-font-size: 20px;
+font-size: 19px;
 line-height: 180%;
 letter-spacing: 0.01em;
 color: #212353;
@@ -793,12 +799,12 @@ color: #212353;
 position: absolute;
 width: 153px;
 height: 30px;
-left: 902px;
+left: 756px;
 top: 3985px;
 font-family:'Lexend', sans-serif;
 font-style: normal;
 font-weight: 900;
-font-size: 20px;
+font-size: 19px;
 line-height: 160%;
 color: #212353;
 }
@@ -806,12 +812,12 @@ color: #212353;
 position: absolute;
 width: 86px;
 height: 160px;
-left: 902px;
+left: 756px;
 top: 4071px;
 font-family:'Lexend', sans-serif;
 font-style: normal;
 font-weight: normal;
-font-size: 20px;
+font-size: 19px;
 line-height: 250%;
 color: #212353;
 }
@@ -819,12 +825,12 @@ color: #212353;
 position: absolute;
 width: 153px;
 height: 30px;
-left: 1190px;
-top: 3959px;
+left: 969px;
+top: 3976px;
 font-family: 'Lexend', sans-serif;
 font-style: normal;
 font-weight: 900;
-font-size: 20px;
+font-size: 19px;
 line-height: 160%;
 color: #212353;
 }
@@ -832,12 +838,12 @@ color: #212353;
 position: absolute;
 width: 86px;
 height: 160px;
-left: 1190px;
+left: 969px;
 top: 4045px;
 font-family:'Lexend', sans-serif;
 font-style: normal;
 font-weight: normal;
-font-size: 20px;
+font-size: 19px;
 line-height: 250%;
 color: #212353;
 }
@@ -845,12 +851,12 @@ color: #212353;
 position: absolute;
 width: 153px;
 height: 30px;
-left: 1422px;
-top: 3988px;
+left: 1152px;
+top: 4006px;
 font-family: 'Lexend', sans-serif;
 font-style: normal;
 font-weight: 900;
-font-size: 20px;
+font-size: 19px;
 line-height: 160%;
 color: #212353;
 }
@@ -858,7 +864,7 @@ color: #212353;
 position: absolute;
 width: 50px;
 height: 50px;
-left: 1422px;px;
+left: 1152px;
 top: 4071px;
 background: #212353;
 opacity: 0.1;
@@ -868,7 +874,7 @@ border-radius: 50px;
 position: absolute;
 width: 50px;
 height: 50px;
-left: 1488px;
+left: 1218px;
 top: 4071px;
 background: #212353;
 opacity: 0.1;
@@ -878,7 +884,7 @@ border-radius: 50px;
 position: absolute;
 width: 50px;
 height: 50px;
-left: 1554px;
+left: 1284px;
 top: 4071px;
 background: #212353;
 opacity: 0.1;
@@ -910,6 +916,6 @@ color: #212353;
     line-height: 160%;
     color: #212353;
     position: absolute;
-    left: 1560px;
-    top: 4399px;
+    left: 1290px;
+    top: 4437px;
 }
