@@ -6,7 +6,7 @@
   margin-top: 100px;
 }
 
-.sword {
+.burger {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,7 +16,7 @@
     margin: 0 auto;
 }
 
-.sword::before {
+.burger::before {
     content: "";
     width: 400px;
     height: 20px;
@@ -24,7 +24,7 @@
     border-radius: 10px;
 }
 
-.sword::after {
+.burger::after {
     content: "";
     width: 400px;
     height: 20px;
@@ -32,28 +32,28 @@
     border-radius: 10px;
 }
 
-.sword-1 {
+.burger-1 {
     width: 400px;
     height: 20px;
     background: linear-gradient(450deg, #ffffff 0%, #ffffff 70%, #000 70%, #000 85%, #ffffff 85%, #ffffff 100% );
     border-radius: 10px;
 }
 
-.sword:hover.sword::before {
+.burger:hover.burger::before {
     transform: translate(0, 120px) rotate(-135deg);
     transition-duration: 3s;
     box-shadow: 0px 0px 50px rgb(23, 36, 150);
     background: linear-gradient(90deg, rgb(63, 63, 63) 15%, rgba(0,0,0,1) 15%, rgba(0,0,0,1) 30%, rgba(25,9,177,1) 30%);
 }
 
-.sword:hover.sword::after {
+.burger:hover.burger::after {
     transform: translate(0, -110px) rotate(-45deg);
     transition-duration: 3s;
     box-shadow: 0px 0px  50px rgb(180, 1, 1);
     background: linear-gradient(90deg, rgb(63, 63, 63) 15%, rgba(0,0,0,1) 15%, rgba(0,0,0,1) 30%, rgba(218,3,3,1) 30%);
 }
 
-.sword:hover .sword-1 {
+.burger:hover .burger-1 {
     visibility: hidden;
 }
 
@@ -76,7 +76,7 @@
 }
 
 .circle-1 {
-  animation-name: one;
+    animation-name: one;
     animation-duration: 1s;
     animation-delay: 3s;
     animation-iteration-count: infinite;
@@ -86,39 +86,39 @@
 
 @keyframes one {
     from {
-        transform: translate(0);
+    transform: translate(0);
     }
     25% {
-        transform: translate(-60px, -60px);
+    transform: translate(-60px, -60px);
     }
     50% {
-        transform: translate(0);
+    transform: translate(0);
     }
     to {
-        transform:translate(0) ;
+    transform:translate(0) ;
     }
 }
 
 .circle-7 {
     animation-name: two;
-      animation-duration: 1s;
-      animation-delay: 3s;
-      animation-iteration-count: infinite;
-      animation-direction: linear;
-      animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: linear;
+    animation-timing-function: ease-in-out;
   }
   
   @keyframes two {
       from {
-          transform: translate(0);
+    transform: translate(0);
       }
       50% {
-          transform: translate(0);
+    transform: translate(0);
       }
       75% {
-          transform: translate(60px, -60px);
+    transform: translate(60px, -60px);
       }
       to {
-          transform:translate(0);
+    transform:translate(0);
       }
   }
