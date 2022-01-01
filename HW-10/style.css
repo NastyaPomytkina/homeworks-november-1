@@ -1,0 +1,124 @@
+.body {
+    background-color: rgb(0, 0, 0);
+}
+
+.box1 {
+  margin-top: 100px;
+}
+
+.burger {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 500px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+.burger::before {
+    content: "";
+    width: 400px;
+    height: 20px;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 15%, rgba(0,0,0,1) 15%, rgba(0,0,0,1) 30%, rgba(255,255,255,1) 30%); 
+    border-radius: 10px;
+}
+
+.burger::after {
+    content: "";
+    width: 400px;
+    height: 20px;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 15%, rgba(0,0,0,1) 15%, rgba(0,0,0,1) 30%, rgba(255,255,255,1) 30%);
+    border-radius: 10px;
+}
+
+.burger-1 {
+    width: 400px;
+    height: 20px;
+    background: linear-gradient(450deg, #ffffff 0%, #ffffff 70%, #000 70%, #000 85%, #ffffff 85%, #ffffff 100% );
+    border-radius: 10px;
+}
+
+.burger:hover.burger::before {
+    transform: translate(0, 120px) rotate(-135deg);
+    transition-duration: 3s;
+    box-shadow: 0px 0px 50px rgb(23, 36, 150);
+    background: linear-gradient(90deg, rgb(63, 63, 63) 15%, rgba(0,0,0,1) 15%, rgba(0,0,0,1) 30%, rgba(25,9,177,1) 30%);
+}
+
+.burger:hover.burger::after {
+    transform: translate(0, -110px) rotate(-45deg);
+    transition-duration: 3s;
+    box-shadow: 0px 0px  50px rgb(180, 1, 1);
+    background: linear-gradient(90deg, rgb(63, 63, 63) 15%, rgba(0,0,0,1) 15%, rgba(0,0,0,1) 30%, rgba(218,3,3,1) 30%);
+}
+
+.burger:hover .burger-1 {
+    visibility: hidden;
+}
+
+.circle {
+    margin: 0 100px;
+    background-color: rgb(167, 57, 152);
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-box div {
+    width: 75px;
+    height: 75px;
+    background-color: rgb(13, 228, 24);
+    border-radius: 50px;
+    box-shadow: 0px 25px 25px 1px #3b3b3b;
+    display: inline-block;
+}
+
+.circle-1 {
+    animation-name: one;
+    animation-duration: 1s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: linear;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes one {
+    from {
+    transform: translate(0);
+    }
+    25% {
+    transform: translate(-60px, -60px);
+    }
+    50% {
+    transform: translate(0);
+    }
+    to {
+    transform:translate(0) ;
+    }
+}
+
+.circle-7 {
+    animation-name: two;
+    animation-duration: 1s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: linear;
+    animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes two {
+      from {
+    transform: translate(0);
+      }
+      50% {
+    transform: translate(0);
+      }
+      75% {
+    transform: translate(60px, -60px);
+      }
+      to {
+    transform:translate(0);
+      }
+  }
